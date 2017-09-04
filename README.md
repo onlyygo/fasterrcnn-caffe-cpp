@@ -17,4 +17,8 @@ In Windows, you should create a new project by IDE, like Visual Studio, and add 
 opencv_core*.dll, opencv_highgui*.dll, opencv_imgproc*.dll' link into project.
 
 Now I have finished the 'Test-version' and it is only support 9 anchors setting, if you want to modify the number of anchors, please edit the ANCHORS variable in 'config.h'. And the 'Train-version' have some bug yet, which in the 'Train_alpha'. If you are in interested it, please debug it. Thanks.
+
+
+PS：使用自己的模型，注意修改Config.h文件中的anchors信息等。生成新的anchors的脚本见于项目rfcn-caffe-cpp。
+
 If you have some question, please tell me or send email to 'onlyygo@qq.com'.
